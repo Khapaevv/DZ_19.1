@@ -279,7 +279,7 @@ class MyServer(BaseHTTPRequestHandler):
 
         <main class="row">
             <div class="row text-center">
-                <div class="col-4">
+                <div class="col-6">
                     <div class="card mb-4 rounded-3 shadow-sm">
                         <div class="card-header py-3">
                             <h4 class="my-0 fw-normal">Товар 1</h4>
@@ -296,23 +296,19 @@ class MyServer(BaseHTTPRequestHandler):
                         </div>
                     </div>
                 </div>
-                <div class="col-4 mt-4 mb-4">
+                <div class="col-6 mt-4 mb-4">
                     <form>
                         <div class="mb-3">
-                            <label for="exampleInputEmail1" class="form-label">Email address</label>
-                            <input name="email" type="email" class="form-control" id="exampleInputEmail1"
-                                   aria-describedby="emailHelp">
-                            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                            <label for="username" class="form-label">Имя</label>
+                            <input name="username" type="text" id="username" class="form-control"
+                                   aria-describedby="userHelp">
                         </div>
                         <div class="mb-3">
-                            <label for="exampleInputPassword1" class="form-label">Password</label>
-                            <input name="password" type="password" class="form-control" id="exampleInputPassword1">
+                            <label for="exampleInputEmail1" class="form-label">Email</label>
+                            <input name="email" type="email" class="form-control" id="exampleInputEmail1"
+                                   aria-describedby="emailHelp">
                         </div>
-                        <div class="mb-3 form-check">
-                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                            <label class="form-check-label" for="exampleCheck1">Check me out</label>
-                        </div>
-                        <button type="submit" class="btn btn-success">Submit</button>
+                        <button type="submit" class="w-100 btn btn-success btn-outline">Отправить</button>
                     </form>
                 </div>
             </div>
