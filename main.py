@@ -9,7 +9,7 @@ class MyServer(BaseHTTPRequestHandler):
 
     def __get_index(self):
         return """
-        <!doctype html>
+   <!doctype html>
 <html lang="en">
 <head>
     <meta charset="utf-8">
@@ -312,7 +312,12 @@ class MyServer(BaseHTTPRequestHandler):
                     </form>
                 </div>
             </div>
-            <div class="col-4 mt-4 mb-4">
+            <header>
+                    <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
+                        <h1 class="display-4 fw-normal text-body-emphasis">FAQ</h1>
+                    </div>
+                </header>
+            <div class="col-4 mt-3 mb-3">
                 <p>
                     <button class="w-100 btn btn-primary btn-info" type="button" data-bs-toggle="collapse"
                             data-bs-target="#collapseWidthExample" aria-expanded="false"
@@ -328,7 +333,7 @@ class MyServer(BaseHTTPRequestHandler):
                     </div>
                 </div>
             </div>
-            <div class="col-4 mt-4 mb-4">
+            <div class="col-4 mt-3 mb-3">
                 <p>
                     <button class="w-100 btn btn-primary btn-info" type="button" data-bs-toggle="collapse"
                             data-bs-target="#collapseWidthExample1" aria-expanded="false"
@@ -344,7 +349,7 @@ class MyServer(BaseHTTPRequestHandler):
                     </div>
                 </div>
             </div>
-            <div class="col-4 mt-4 mb-4">
+            <div class="col-4 mt-3 mb-3">
                 <p>
                     <button class="w-100 btn btn-primary btn-info" type="button" data-bs-toggle="collapse"
                             data-bs-target="#collapseWidthExample2" aria-expanded="false"
